@@ -81,19 +81,19 @@ resource "azuread_application" "rddx" {
   app_role {
     allowed_member_types = var.allowed_member_types_user
     description          = "Analista"
-    display_name         = "Bocc_537_D_Consultas"
+    display_name         = "Consultas"
     enabled              = true
-    id                   = "497406e4-012a-4267-bf18-45a1cb148a01"
-    value                = "Bocc_537_D_Consultas"
+    id                   = "45a1cb148a01"
+    value                = "Consultas"
   }
 
   app_role {
     allowed_member_types = var.allowed_member_types_user
     description          = "Administrators"
-    display_name         = "Bocc_537_D_Administrators"
+    display_name         = "Administrators"
     enabled              = true
-    id                   = "1b19509b-32b1-4e9f-b71d-4992aa991967"
-    value                = "Bocc_537_D_Administrators"
+    id                   = "4992aa991967"
+    value                = "Administrators"
   }
 }
 
